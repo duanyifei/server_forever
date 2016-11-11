@@ -1,0 +1,8 @@
+# 自定义脚本文件目录
+jobs/
+
+# pid
+pid
+
+# pyc
+*.pyc
