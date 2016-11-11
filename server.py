@@ -18,10 +18,11 @@ pid = os.getpid()
 with open(os.path.join(cur_path, 'pid'), 'w') as f:
     f.write(str(pid))
 
-@route('/')
-def root():
-    u'''根目录'''
-    return 'Hello!!!'
+#@route('/')
+#def root():
+#    u'''根目录'''
+#    return 'Hello!!!'
+from example import root
 
 @route('/pid')
 def get_pid():
